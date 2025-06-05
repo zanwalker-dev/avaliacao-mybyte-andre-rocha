@@ -48,6 +48,9 @@ def menu():
             juros_composto()
         elif option == "3":
             valor_presente()
+        elif option == "0":
+            print("Saindo do programa")
+            break
         else:
             print("Opção inválida.")
 
