@@ -11,13 +11,15 @@
         <div class="container">
             <h1>Cadastro</h1>
             <form class="form">
-                <!-- Usei aqui o encapsulamento do input direto no label para dispensar for e id -->
-                <label>
-                    Nome:
+                <!-- Usei aqui o encapsulamento do input direto no label para dispensar for e id 
+                    mantive o label por questão de semântica e acessibilidade mas vou esconder esteticamente
+                -->
+                <label> 
+                    <span class="hiding-label">Nome:</span>
                     <input type="text" placeholder="Insira seu nome">
                 </label>
                 <label>
-                    Email:
+                    <span class="hiding-label">Email:</span>
                     <input type="email" placeholder="Insira seu email">
                 </label>
                 <button type="submit" class="btn">Enviar</button>
