@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #1d1d1d;
+    --black-color: #000;
+    --white-color: #fff;
+    --border-color: #1a1a1a;
+    --btn-color: #3e3e3e;
+    --shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
