@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: var(--primary-color);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+}
