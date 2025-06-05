@@ -26,7 +26,7 @@ Cirar um formulario visualmente agradável com os seguintes criterios:
 
 ### Como Visualizar
 1. Abra o arquivo `index.html` em qualquer navegador moderno
-2. Não é necessário servidor - funciona com file://
+2. Não é necessário servidor - funciona com localhost
 
 ## 🧮 Teste 2 - Cálculos Financeiros (Python)
 
