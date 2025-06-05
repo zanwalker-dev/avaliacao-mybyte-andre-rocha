@@ -19,17 +19,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 btn.style.backgroundColor = '#22c55e';  
             } else {
                 warning.textContent = 'Digite nome e email válidos'
+                warning.style.color = '#ff0000';
             }
 
             setTimeout(() => {
                 this.reset();
                 btn.textContent = 'Enviar';
                 btn.style.backgroundColor = '';
-            }, 900)
+            }, 1200)
 
             setTimeout(() => {
                 warning.textContent = '';
-              }, 2000);
+              }, 1600);
         })
     }
 })
