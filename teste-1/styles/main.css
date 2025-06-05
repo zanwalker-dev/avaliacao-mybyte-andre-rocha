@@ -41,8 +41,8 @@ label{
 
 input{
     padding: 12px 15px;
-    border: 2px solid var(--border-color);
-    border-radius: 14px;
+    border: 2.4px solid var(--border-color);
+    border-radius: 12px;
     width: 80%;
 }
 
@@ -67,4 +67,16 @@ input:focus{
 
 .btn:hover {
     background-color: var(--btn-overlay);
+}
+
+@media (max-width: 480px) {
+    input {
+        width: 100%;
+        font-size: 0.85rem;
+    }
+
+    .btn{
+        width: 85%;
+        margin-top: 5px;
+    }
 }
