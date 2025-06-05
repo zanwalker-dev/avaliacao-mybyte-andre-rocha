@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    min-height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+ul,
+ol{
+    list-style: none;
+}
