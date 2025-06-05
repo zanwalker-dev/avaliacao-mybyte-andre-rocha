@@ -11,21 +11,17 @@
         <div class="container">
             <h1>Cadastro</h1>
             <form class="form">
-                <div class="camp-container">
-                        <!-- Usei aqui o encapsulamento do input direto no label para dispensar for e id 
-                        mantive o label por questão de semântica e acessibilidade mas vou esconder esteticamente
-                    -->
-                    <label> 
-                        <span class="hiding-label">Nome:</span>
-                        <input type="text" placeholder="Nome">
-                    </label>
-                </div>
-                <div class="camp-container">
-                    <label>
-                        <span class="hiding-label">Email:</span>
-                        <input type="email" placeholder="Email">
-                    </label>
-                </div>
+                <!-- Usei aqui o encapsulamento do input direto no label para dispensar for e id 
+                    mantive o label por questão de semântica e acessibilidade mas vou esconder esteticamente
+                -->
+                <label> 
+                    <span class="hiding-label">Nome:</span>
+                    <input type="text" placeholder="Nome">
+                </label>
+                <label>
+                    <span class="hiding-label">Email:</span>
+                    <input type="email" placeholder="Email">
+                </label>
                 <button type="submit" class="btn">Enviar</button>
             </form>
         </div>
